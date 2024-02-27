@@ -1,1 +1,1 @@
-"# Kattis" 
+Codes for all my Kattis Solution thus far.
