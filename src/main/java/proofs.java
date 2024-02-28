@@ -11,10 +11,8 @@ public class proofs {
 
         for (int i = 0; i < n; i++) {
             token = br.readLine().split("-> ");
-            //System.out.println(token[0] + "->" + token[1]);
             boolean correct = true;
             String[] s = token[0].split(" ");
-            //System.out.println(s.length);
             for (int j = 0; j < s.length; ++j) {
                 if ((s[j].length() > 0) && !proven.contains(s[j])) {
                     correct = false;
